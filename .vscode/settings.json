@@ -1,0 +1,91 @@
+{
+  "workbench.editor.empty.hint": "hidden",
+  "editor.fontSize": 16,
+  "editor.mouseWheelZoom": true,
+  "editor.wordWrap": "on",
+  "editor.tabSize": 2,
+  "editor.guides.bracketPairs": "active",
+  "json.schemas": [],
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#FFFF00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#111111",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "#",
+      "color": "#FF00A2",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#111111",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "%",
+      "color": "#A3FF00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#111111",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "&",
+      "color": "#ffffff",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "#111111",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "[jsonc]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "emmet.variables": {
+    "lang": "ko"
+  },
+  "files.autoSave": "afterDelay",
+  "liveServer.settings.CustomBrowser": "chrome"
+}
