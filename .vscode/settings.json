@@ -87,5 +87,6 @@
     "lang": "ko"
   },
   "files.autoSave": "afterDelay",
-  "liveServer.settings.CustomBrowser": "chrome"
+  "liveServer.settings.CustomBrowser": "chrome",
+  "liveServer.settings.port": 5501
 }
