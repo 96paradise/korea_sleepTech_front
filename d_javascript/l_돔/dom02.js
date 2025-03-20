@@ -56,7 +56,7 @@ document.addEventListener('DOMContentLoaded', () => {
     dog.style.width = width + 'px';
     dog.style.height = '250px';
 
-    const source = './dog.jpg'
+    const source = '../dog.jpg'
     const alter = '강아지 이미지';
 
     //? cf) HTML 표준에 정의된 속성들은 setAttribute() 또는 getAttribute() 사용 없이 객체 접근이 가능
