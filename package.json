@@ -9,5 +9,13 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/96paradise/korea_sleepTech_front.git"
+  },
+  "bugs": {
+    "url": "https://github.com/96paradise/korea_sleepTech_front/issues"
+  },
+  "homepage": "https://github.com/96paradise/korea_sleepTech_front#readme"
 }
