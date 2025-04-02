@@ -31,6 +31,12 @@ EX) API 호출, 이벤트 리스너 등록, 수동 DOM 조작 등
 
 useEffect(() => {
   - 부수 효과 -
+
+  ? useEffect의 정리 함수 
+  : useEffect에서 함수를 return하면 해당 함수는 컴포넌트가 화면에서 사라질 때 (언마운트) 실행
+  >> 정리 함수(clean-up Function)
+  return () => {
+  }
 }, [의존성배열1, a, b, c]);
 
 VS 이벤트리스너
@@ -62,10 +68,10 @@ function UseEffect01() {
 
   useEffect(() => {
     console.log(`==Name: ${name} / Count: ${count}==`);
-  }, [name, count])
+  }, [name, count]);
 
   useEffect(() => {
-    console.log('타이머 시작');
+    console.log('⏰ 타이머 시작');
 
     const timer = setInterval(() => {
       setTime(prev => prev + 1);
