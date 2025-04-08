@@ -14,11 +14,11 @@ import RouterPractice from '@/pages/d_router_practice';
 import Review from '@/pages/e_review';
 import Http from '@/pages/f_http';
 import GlobalState from '@/pages/g_global_state';
-
-//# React(TS) + Axios + localStorage 게시글 앱
-import PostApp from '@/pages/f_http/post-app/Main';
-
 import Style from '@/pages/h_style';
+
+//# REACT(TS) + Axios + localStorage 게시글 앱
+import PostApp from '@/pages/f_http/post-app/Main';
+import Todo from '@/pages/z_practice01/Todo';
 
 //& 기본 Vite React 앱의 경로
 // : http://localhost:5173
@@ -51,6 +51,7 @@ function App() {
         <Route path='/global-state' element={<GlobalState />} />
         <Route path='/post-app' element={<PostApp />} />
         <Route path='/style' element={<Style />} />
+        <Route path='/todo' element={<Todo />} />
       </Routes>
     </>
   )
